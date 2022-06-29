@@ -1,55 +1,39 @@
 {
-  "Certifications":[
-  {
-    "id": 1,
-    "folio": "22-kRJKSEK453",
-    "service": "Prueba de carga winche win-CMI-005",
-    "cliente": "CMI",
-    "dateEmision": "04/1/2020",
-    "dateNextTest": "04/1/2022"
+  "Certification": {
+    "folio": {
+      "string": [
+        "x-343-1234",
+        "x-343-1235",
+        "x-343-1236"
+      ]
+    },
+   "servicio": {
+      "string": [
+        "ISO-9001",
+        "x ISO-9002",
+        "x ISO-9021"
+      ]
+    },
     
-  },
-  {
-    "id": 1,
-    "folio": "22-kRJKSEK454",
-    "service": "Prueba de carga winche win-CMI-006",
-    "cliente": "CMI",
-    "dateEmision": "04/1/2020",
-    "dateNextTest": "04/1/2022"
-  },
-    {
-    "id": 1,
-    "folio": "22-kRJKSEK455",
-    "service": "Prueba de carga winche win-CMI-007",
-    "cliente": "CMI",
-    "dateEmision": "04/1/2020",
-    "dateNextTest": "04/1/2022"
-  },
-    {
-    "id": 1,
-    "folio": "22-kRJKSEK456",
-    "service": "Prueba de carga winche win-CMI-008",
-    "cliente": "CMI",
-    "dateEmision": "04/1/2020",
-    "dateNextTest": "04/1/2022"
-  },
-    {
-    "id": 1,
-    "folio": "22-kRJKSEK457",
-    "service": "Prueba de carga winche win-CMI-009",
-    "cliente": "CMI",
-    "dateEmision": "04/1/2020",
-    "dateNextTest": "04/1/2022"
-  },
-    {
-    "id": 1,
-    "folio": "22-kRJKSEK458",
-    "service": "Prueba de carga winche win-CMI-010",
-    "cliente": "CMI",
-    "dateEmision": "04/1/2020",
-    "dateNextTest": "04/1/2022"
+   "cliente": {
+      "string": [
+        "BBVA",
+        "PEMEX",
+        "BANORTE"
+      ]
+    },
+    "fechaEmision": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2020-12-31T23:59:59Z"
+      }
+    },
+    ,
+    "fechaProximaPrueba": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2020-12-31T23:59:59Z"
+      }
+    }
   }
-  
-  
-  ]
 }
